@@ -42,9 +42,13 @@ env %>%
   run(120) %>%
   now()
 
+env %>% peek(3)
+
 env %>% 
   reset() %>% 
   run(80) %>%
   now()
+
+env %>% peek(3)
 
 
